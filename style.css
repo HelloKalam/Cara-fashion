@@ -625,3 +625,104 @@ nav img{
         width: 30vw;
     }
 }
+
+/* shop page */
+
+.page-header .left{
+    color: #fff;
+    font-size: 3.65vw;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/banner/b1.jpg);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+.pagination{
+    text-align: center;
+    padding: 3vw 4vw;
+}
+.pagination a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    background-color: #088178;
+    padding: 0.7vw 1vw;
+    border-radius: 4px;
+}
+.pagination a i{
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+/* single prodcuts */
+#prodetails{
+    display: flex;
+    margin-top: 2vw;
+
+}
+#prodetails .single-pro-image{
+    width: 40%;
+    margin-right: 5vw;
+}
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+#prodetails .single-pro-details{
+    width: 50%;
+    padding: 3vw ;
+}
+.single-pro-details h4{
+    font-size: 1.7vw;
+    padding: 2vw 0;
+}
+.single-pro-details select{
+    display: block;
+    padding: .1vw .2vw;
+    cursor: pointer;
+    outline: none;
+    margin: 0.8vw 0;
+}
+.single-pro-details input{
+    height: 2vw;
+    width: 3.8vw;
+    padding: 5px 10px;
+}
+.single-pro-details button{
+    padding: 5px 12px;
+    background-color: #088178;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 1.5vw;
+}
+.single-pro-details h4{
+    font-size: 1.5vw;
+}
+.single-pro-details span{
+    font-size: 01.1vw;
+    color: grey;
+    line-height:1.6vw;
+}
+
+@media (max-width:399px) {
+    .page-header .left{
+        height: 25vh;
+    }
+    .page1 {
+        min-height: 30vh;
+     }
+     .product1 .pro {
+        min-width: 228px;
+        margin: 15px 74px;
+    }
+}
